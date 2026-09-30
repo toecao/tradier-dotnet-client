@@ -30,7 +30,7 @@ namespace Tradier.Client.Models.Account
         public float CurrentRequirement { get; set; }
 
         [JsonProperty("equity")]
-        public int Equity { get; set; }
+        public float Equity { get; set; }
 
         [JsonProperty("long_market_value")]
         public float LongMarketValue { get; set; }
